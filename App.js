@@ -1,20 +1,25 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import { TailwindProvider } from 'tailwindcss-react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import HomeScreen from './screens/HomeScreen';
+import Screen_Alg1 from './screens/Screen_Alg1';
+import Screen_Alg2 from './screens/Screen_Alg2';
+import PredictionScreen from './screens/PredictionScreen';
+import SelectionScreen from './screens/SelectionScreen';
+
+
+const Slack = createNativeStackNavigator();
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+      <NavigationContainer>
+        <TailwindProvider>
+          <Slack.Navigator>
+            <Slack.Screen name='Home' component={HomeScreen}/>
+          </Slack.Navigator>
+        </TailwindProvider>
+      </NavigationContainer>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
