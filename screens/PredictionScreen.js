@@ -5,6 +5,7 @@ export default function PredictionScreen() {
   return (
     <View>
       <Text>PredictionScreen</Text>
+      <h1>Here</h1>
     </View>
   )
 }
