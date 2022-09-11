@@ -17,7 +17,8 @@ export default function App() {
       <NavigationContainer>
         <TailwindProvider>
           <Slack.Navigator>
-            <Slack.Screen name='Home' component={HomeScreen}/>
+            
+            <Slack.Screen name='Prediction' component={PredictionScreen} options={{headerShown: false}}/>
           </Slack.Navigator>
         </TailwindProvider>
       </NavigationContainer>
