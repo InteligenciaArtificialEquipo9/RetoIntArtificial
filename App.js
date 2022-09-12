@@ -14,12 +14,13 @@ const Slack = createNativeStackNavigator();
 
 export default function App() {
   return (
-      <NavigationContainer>
-        <TailwindProvider>
-          <Slack.Navigator>
-            <Slack.Screen name='Home' component={HomeScreen}/>
-          </Slack.Navigator>
-        </TailwindProvider>
-      </NavigationContainer>
+    <NavigationContainer>
+      <TailwindProvider>
+        <Slack.Navigator>
+          <Slack.Screen name='Home' component={HomeScreen}/>
+          <Slack.Screen name="Selection" component={SelectionScreen} />
+        </Slack.Navigator>
+      </TailwindProvider>
+    </NavigationContainer>
   );
 }
