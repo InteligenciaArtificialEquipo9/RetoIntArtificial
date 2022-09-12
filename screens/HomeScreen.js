@@ -14,9 +14,10 @@ export default function HomeScreen() {
         });
     }, [])
     return (
-        <SafeAreaView>
+        <>
+        <SafeAreaView className='pt-5 h-full flex-1 bg-[#EEF1F7]'>
             <ScrollView>
-            <View className="bg-[#EEF1F7]">
+            <View className="mb-20">
                 <Text className="text-xl text-center py-4 font-bold">Problemática</Text>
                 <Image source={require("../assets/titanic.jpeg")}
                        className="rounded-lg w-10/12 h-56 self-center"/>
@@ -42,7 +43,8 @@ export default function HomeScreen() {
             </View>
             </ScrollView>
            
-        <NavegacionAbajo/>
         </SafeAreaView>
+        <NavegacionAbajo screen='Problema'/>
+        </>
     )
 }
