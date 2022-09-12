@@ -2,6 +2,7 @@ import { View, Text, SafeAreaView, Image, TouchableOpacity, ScrollView } from 'r
 import React from 'react'
 import { ArrowLeftIcon, LocationMarkerIcon, MailIcon, PhoneIcon } from 'react-native-heroicons/solid'
 import { useNavigation } from '@react-navigation/native'
+import NavegacionAbajo from '../components/NavegacionAbajo'
 
 
 export default function ProfileScreen() {
@@ -19,7 +20,7 @@ const navigation = useNavigation()
             </TouchableOpacity>
             <View className="flex-1">
               <Text className="font-light text-xl">Algoritmo 1</Text>
-              <Text className="font-bold text-xl">ANN</Text>
+              <Text className="font-bold text-xl">KNN</Text>
             </View>
           </View>
         </View>
@@ -173,9 +174,12 @@ const navigation = useNavigation()
         </View>
       </View>
 
+      <View>
+      <NavegacionAbajo screen='Alg1'/>
 
-      
-
+      </View>
+  
     </ScrollView>
-  )
+
+  )   
 }

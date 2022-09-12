@@ -17,9 +17,12 @@ export default function App() {
       <NavigationContainer>
         <TailwindProvider>
           <Slack.Navigator>
-            <Slack.Screen name='Alg 1' component={Screen_Alg1}/>
+            <Slack.Screen name='Alg 2' component={Screen_Alg2}/>
           </Slack.Navigator>
         </TailwindProvider>
       </NavigationContainer>
+
+
+
   );
 }
