@@ -6,8 +6,6 @@ import NavegacionAbajo from '../components/NavegacionAbajo'
 
 export default function PredictionScreen() {
 
-  const [result, setResult] = useState('')
-
   const [state, setState] = useState({
     name: '',
     age: 0,
@@ -18,7 +16,7 @@ export default function PredictionScreen() {
   const predict = () => {
     console.log(state)
     // Aqui se va a mandar lo de state para predecir
-    setResult('Mueres')
+    alert('Mueres')
   }
 
   return (
@@ -64,11 +62,6 @@ export default function PredictionScreen() {
         <TouchableOpacity className='mt-40'>
           <Button onPress={predict}>Predecir</Button>
         </TouchableOpacity>
-        {result == '' ? '' :
-          <View className='items-center'>
-            <Text className='text-xl mt-8 font-bold'>{result}</Text>
-          </View>
-        }
       </ScrollView>
 
     </View>
