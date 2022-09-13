@@ -18,16 +18,14 @@ export default function HomeScreen() {
         <SafeAreaView className='pt-5 h-full flex-1 bg-[#EEF1F7]'>
             <ScrollView>
             <View className="mb-20">
-                <Text className="text-xl text-center py-4 font-bold">Problemática</Text>
+                <Text className="text-xl text-center py-4 font-bold">Background</Text>
                 <Image source={require("../assets/titanic.jpeg")}
                        className="rounded-lg w-10/12 h-56 self-center"/>
-                <Text className="m-4">Descripcion del problema Descripcion del
-                    problema Descripcion del problema Descripcion del problema
-                    Descripcion del problema Descripcion del problema Descripcion del
-                    problema Descripcion del problema Descripcion del problema
-                    Descripcion del problema</Text>
+                <Text className="m-4">On April 10, 1912 the RMS Titanic left Southhampton, England headed for New York. Aboard were 2,435 passengers and 892 crew members. Five days later, the Titanic hit an iceberg in the frigid waters, within approximately two and a half hours the ship had split apart and sunk, leaving just over 700 survivors. We’ll analyze the data set to explore the variables and determine whether the passenger survived or not. Furthermore, in the screen of “Prediction” you can enter your own data to see if you would have survived this disaster.
+                {"\n"}
+ Solving problems with algorithms of machine learning is important because it gives us valuable information about behaviors and patterns. The computer learns from past data to make predictions. For example, we could see that during the Titanic they followed the social norm of “Women and children first”.</Text>
 
-            <Text className="text-xl text-center py-2 font-bold">Integrantes del equipo</Text>
+            <Text className="text-xl text-center py-2 font-bold">Team members: </Text>
 
                 <ScrollView
                     contentContainerStyle={{paddingHorizontal:15, paddingTop:10,}}
