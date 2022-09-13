@@ -6,10 +6,7 @@ import { useNavigation } from '@react-navigation/native';
 export default function NavegacionAbajo({screen}) {
   const navigation = useNavigation()
 
-  const [target, setTarget] = useState('Home')
-
   const handleNavigate = (screen) => {
-    setTarget(screen)
     navigation.navigate(screen)
   }
 
