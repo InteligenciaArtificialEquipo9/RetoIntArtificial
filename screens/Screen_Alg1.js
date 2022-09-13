@@ -47,13 +47,11 @@ export default function ProfileScreen() {
             <Text className='text-lg mb-2'>Precisión obtenida</Text>
           </View>
 
-          <View className='bg-gray border px-32 border-gray-200 mt-0 '>
+          <View className='bg-gray border px-8 border-gray-200 mt-0 '>
         <View className='flex-row items-center'>
         <Image
-            source={{
-              uri: 'https://uning.es/wp-content/uploads/2016/08/ef3-placeholder-image.jpg'
-            }} 
-            className="h-20 w-40 bg-gray-300 mt-10"/>
+            source={require('../assets/PrecisionANN.jpeg')}
+            className="h-22 w-50 bg-gray-300 mt-10"/>
         </View>
       </View>
 
@@ -73,13 +71,11 @@ export default function ProfileScreen() {
             <Text className='text-lg mb-2'>Matriz de confusión</Text>
           </View>
 
-          <View className='bg-gray border px-32 border-gray-200 mt-0 '>
+          <View className='bg-gray border px-12 border-gray-200 mt-0 '>
         <View className='flex-row items-center'>
         <Image
-            source={{
-              uri: 'https://uning.es/wp-content/uploads/2016/08/ef3-placeholder-image.jpg'
-            }} 
-            className="h-20 w-40 bg-gray-300 mt-10"/>
+            source={require('../assets/MatrizConfANN.jpeg')}
+            className="h-80 w-80 bg-gray-300 mt-10"/>
         </View>
       </View>
 
@@ -98,13 +94,12 @@ export default function ProfileScreen() {
             <Text className='text-lg mb-2'>ROC</Text>
           </View>
 
-          <View className='bg-gray border px-32 border-gray-200 mt-0 '>
+          <View className='bg-gray border pl-4 border-gray-200 mt-0 '>
         <View className='flex-row items-center'>
         <Image
-            source={{
-              uri: 'https://uning.es/wp-content/uploads/2016/08/ef3-placeholder-image.jpg'
-            }} 
-            className="h-20 w-40 bg-gray-300 mt-10"/>
+            source={require('../assets/ROC_ANN.jpeg')}
+            
+            className="h-60 w-96 bg-gray-300 mt-10"/>
         </View>
       </View>
 
@@ -122,13 +117,13 @@ export default function ProfileScreen() {
             <Text className='text-lg mb-2'>AUC</Text>
           </View>
 
-          <View className='bg-gray border px-32 border-gray-200 mt-0 '>
+          <View className='bg-gray border px-0 border-gray-200 mt-0 '>
         <View className='flex-row items-center'>
         <Image
-            source={{
-              uri: 'https://uning.es/wp-content/uploads/2016/08/ef3-placeholder-image.jpg'
-            }} 
-            className="h-20 w-40 bg-gray-300 mt-10"/>
+            source=
+              {require('../assets/AUC_ANN.jpeg')}
+            
+            className="h-7 w-120 bg-gray-300 mt-10"/>
         </View>
       </View>
 
@@ -146,13 +141,13 @@ export default function ProfileScreen() {
             <Text className='text-lg mb-2'>Puntaje obtenido en Kaggle</Text>
           </View>
 
-          <View className='bg-gray border px-32 border-gray-200 mt-0 '>
+          <View className='bg-gray border px-10 border-gray-200 mt-0 '>
         <View className='flex-row items-center'>
         <Image
-            source={{
-              uri: 'https://uning.es/wp-content/uploads/2016/08/ef3-placeholder-image.jpg'
-            }} 
-            className="h-20 w-40 bg-gray-300 mt-10"/>
+            source=
+            {require('../assets/KaggleScoreANN.jpeg')}
+            
+            className="h-20 w-80 bg-gray-300 mt-10"/>
         </View>
       </View>
 
