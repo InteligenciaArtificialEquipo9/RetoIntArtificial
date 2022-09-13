@@ -48,13 +48,11 @@ const navigation = useNavigation()
             <Text className='text-lg mb-2'>Precisión obtenida</Text>
           </View>
 
-          <View className='bg-gray border px-32 border-gray-200 mt-0 '>
+          <View className='bg-gray border px-5 border-gray-200 mt-0 '>
         <View className='flex-row items-center'>
         <Image
-            source={{
-              uri: 'https://uning.es/wp-content/uploads/2016/08/ef3-placeholder-image.jpg'
-            }} 
-            className="h-20 w-40 bg-gray-300 mt-10"/>
+            source= {require('../assets/PrecisionKNN.jpeg')}
+            className="h-53 w-50 bg-gray-300 mt-10"/>
         </View>
       </View>
 
@@ -74,13 +72,13 @@ const navigation = useNavigation()
             <Text className='text-lg mb-2'>Matriz de confusión</Text>
           </View>
 
-          <View className='bg-gray border px-32 border-gray-200 mt-0 '>
+          <View className='bg-gray border px-10 border-gray-200 mt-0 '>
         <View className='flex-row items-center'>
         <Image
-            source={{
-              uri: 'https://uning.es/wp-content/uploads/2016/08/ef3-placeholder-image.jpg'
-            }} 
-            className="h-20 w-40 bg-gray-300 mt-10"/>
+            source=
+            {require('../assets/Matriz_KNN.jpeg')}
+
+            className="h-72 w-80 bg-gray-300 mt-10"/>
         </View>
       </View>
 
@@ -99,13 +97,11 @@ const navigation = useNavigation()
             <Text className='text-lg mb-2'>ROC</Text>
           </View>
 
-          <View className='bg-gray border px-32 border-gray-200 mt-0 '>
+          <View className='bg-gray border px-5 border-gray-200 mt-0 '>
         <View className='flex-row items-center'>
         <Image
-            source={{
-              uri: 'https://uning.es/wp-content/uploads/2016/08/ef3-placeholder-image.jpg'
-            }} 
-            className="h-20 w-40 bg-gray-300 mt-10"/>
+            source= {require('../assets/RNC_KNN.jpeg')}
+            className="h-72 w-96 bg-gray-300 mt-10"/>
         </View>
       </View>
 
@@ -123,13 +119,11 @@ const navigation = useNavigation()
             <Text className='text-lg mb-2'>AUC</Text>
           </View>
 
-          <View className='bg-gray border px-32 border-gray-200 mt-0 '>
+          <View className='bg-gray border px-8 border-gray-200 mt-0 '>
         <View className='flex-row items-center'>
         <Image
-            source={{
-              uri: 'https://uning.es/wp-content/uploads/2016/08/ef3-placeholder-image.jpg'
-            }} 
-            className="h-20 w-40 bg-gray-300 mt-10"/>
+            source= {require('../assets/AUC_KNN.jpeg')}
+            className="h-53 w-50 bg-gray-300 mt-10"/>
         </View>
       </View>
 
@@ -147,13 +141,12 @@ const navigation = useNavigation()
             <Text className='text-lg mb-2'>Puntaje obtenido en Kaggle</Text>
           </View>
 
-          <View className='bg-gray border px-32 border-gray-200 mt-0 '>
+          <View className='bg-gray border px-20 border-gray-200 mt-0 '>
         <View className='flex-row items-center'>
         <Image
-            source={{
-              uri: 'https://uning.es/wp-content/uploads/2016/08/ef3-placeholder-image.jpg'
-            }} 
-            className="h-20 w-40 bg-gray-300 mt-10"/>
+            source=
+            {require('../assets/KaggleKNN.jpeg')}
+            className="h-36 w-64 bg-gray-300 mt-10"/>
         </View>
       </View>
 
