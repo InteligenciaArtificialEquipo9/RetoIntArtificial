@@ -11,8 +11,8 @@ export default function ProfileScreen() {
     <>
     <ScrollView className='pt-5 h-full flex-1 bg-[#EEF1F7]'>
       <View className="items-center mt-8">
-        <Text className="font-light text-xl">Algoritmo 1</Text>
-        <Text className="font-bold text-xl">KNN</Text>
+        <Text className="font-light text-xl">Algorithm 1</Text>
+        <Text className="font-bold text-xl">ANN</Text>
       </View>
 
 
@@ -20,7 +20,7 @@ export default function ProfileScreen() {
         <View> 
           <View className='pl-2 pb-1 pt-0 '>
             <Text>&emsp;</Text>
-            <Text className="font-bold text-xl">Justificación</Text>
+            <Text className="font-bold text-xl">Justification</Text>
           </View>
           <View className='flex-row items-center px-7'>
             <Text>&emsp;</Text>
@@ -35,7 +35,7 @@ export default function ProfileScreen() {
         <View> 
           <View className='pl-2 pb-3 pt-0 '>
             <Text>&emsp;</Text>
-            <Text className="font-bold text-xl">Resultados</Text>
+            <Text className="font-bold text-xl">Results</Text>
           </View>
         </View>
       </View>
@@ -44,7 +44,7 @@ export default function ProfileScreen() {
         <View> 
           <View className='pl-2 pb-3 pt-0 '>
             <Text>&emsp;</Text>
-            <Text className='text-lg mb-2'>Precisión obtenida</Text>
+            <Text className='text-lg mb-2'>Accuracy obtained</Text>
           </View>
 
           <View className='bg-gray border px-8 border-gray-200 mt-0 '>
@@ -55,9 +55,9 @@ export default function ProfileScreen() {
         </View>
       </View>
 
-          <View className='flex-row items-center px-7'>
+          <View className='flex-row items-center px-2'>
             <Text>&emsp;</Text>
-            <Text className='text mb-1'>Pequeña descripción de la precisión obtenida </Text>
+            <Text className='text mb-1'>Using the ANN method we obtained an accuracy of 0.86</Text>
           </View>
         </View>
       </View>
@@ -68,7 +68,7 @@ export default function ProfileScreen() {
           <View className='pl-2 pb-3 pt-0 '>
             <Text>&emsp;</Text>
             <Text>&emsp;</Text>
-            <Text className='text-lg mb-2'>Matriz de confusión</Text>
+            <Text className='text-lg mb-2'>Confusion Matrix</Text>
           </View>
 
           <View className='bg-gray border px-12 border-gray-200 mt-0 '>
@@ -79,10 +79,10 @@ export default function ProfileScreen() {
         </View>
       </View>
 
-          <View className='flex-row items-center px-7'>
+          <View className='flex-row items-center px-20'>
             <Text>&emsp;</Text>
             
-            <Text className='text mb-1'>Pequeña descripción de la Matriz de confusión  </Text>
+            <Text className='text mb-1'>Image of the Cofusion Matrix</Text>
           </View>
         </View>
       </View>
@@ -103,9 +103,9 @@ export default function ProfileScreen() {
         </View>
       </View>
 
-          <View className='flex-row items-center px-20'>
+          <View className='flex-row items-center px-10'>
             <Text>&emsp;</Text>
-            <Text className='text mb-1'>Pequeña descripción de ROC </Text>
+            <Text className='text mb-1'>Receiver operating characteristic curve </Text>
           </View>
         </View>
       </View>
@@ -127,9 +127,9 @@ export default function ProfileScreen() {
         </View>
       </View>
 
-          <View className='flex-row items-center px-20'>
+          <View className='flex-row items-center px-32'>
             <Text>&emsp;</Text>
-            <Text className='text mb-1'>Pequeña descripción de AUC </Text>
+            <Text className='text mb-1'>Area under curve </Text>
           </View>
         </View>
       </View>
@@ -138,7 +138,7 @@ export default function ProfileScreen() {
         <View> 
           <View className='pl-2 pb-3 pt-0 '>
             <Text>&emsp;</Text>
-            <Text className='text-lg mb-2'>Puntaje obtenido en Kaggle</Text>
+            <Text className='text-lg mb-2'>Kaggle score</Text>
           </View>
 
           <View className='bg-gray border px-10 border-gray-200 mt-0 '>
@@ -153,7 +153,7 @@ export default function ProfileScreen() {
 
           <View className='flex-row items-center px-7 pb-40'>
             <Text>&emsp;</Text>
-            <Text className='text mb-1'>Pequeña descripción del puntaje en Kaggle </Text>
+            <Text className='text mb-1'>Score obtained when submitting the file to Kaggle</Text>
           </View>
         </View>
       </View>
