@@ -163,7 +163,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y,
                                   train_size=0.8)
 
 # https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html
-model = MLPClassifier(solver='adam', alpha=1e-4, hidden_layer_sizes=(300, 100), max_iter=1000, learning_rate_init=0.001, tol=1e-4, activation='relu', verbose=10)
+model = MLPClassifier(solver='adam', alpha=1e-4, hidden_layer_sizes=(300, ), max_iter=1000, learning_rate_init=0.001, tol=1e-4, activation='relu', verbose=10)
 model.fit(X_train, y_train)
 
 
