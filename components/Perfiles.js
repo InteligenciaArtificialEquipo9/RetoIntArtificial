@@ -8,7 +8,7 @@ export default function Perfiles({img, nombre, matricula}) {
 
     return (
         <View
-            className="bg-[#CED3DC] mr-3 shadow w-52"
+            className="bg-[#d4d2e5] mr-3 shadow w-52 rounded-md"
         >
             <Image
                 source={{

@@ -40,7 +40,7 @@ export default function NavegacionAbajo({screen}) {
         onPress={() => handleNavigate('Selection')}>
           <DocumentIcon color= {screen == "Seleccion" ? "#275DAD" : "#ABA9C3"}
           size={30} />
-          <Text>Selección</Text>
+          <Text>Selection</Text>
         </TouchableOpacity>
         <TouchableOpacity 
         className="m-1.5 mt-2 basis-1/6 items-center"
