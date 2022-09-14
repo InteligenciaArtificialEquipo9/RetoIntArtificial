@@ -33,27 +33,29 @@ export default function SelectionScreen() {
         We achieved a fairly good score around 70. But we believe that we could further improve our implementation by including cross validation to find the best “K” as with our current implementation it is found using a determined range. We also considered that cross validation would be better when working on a larger data set as this new feature would require us to take a piece of the data for training, for the cross validation.{"\n"}
         For further improvement, we found that we could use k-fold-cross-validation, a take of the algorithm that at first glance suppose an attractive improvement, but must be used carefully as the n pieces that the training data was divided into may cause the algorithm to have a bad time complexity the more n grows.{"\n"} 
         {"\n"}
+        Although we might think that ANN as a better method than KNN looking at the scores and accuracy obtained, it is important to take into consideration that KNN is a much more stable algorithm. Having a constant score in each iteration, compared to ANN in which we had different results in every iteration, circling anywhere between 78 and 86. {"\n"}
+        {"\n"}
         The team had fun implementing and getting deeper into this algorithm. We believe it will become a very useful tool that will accompany everyone that goes further into AI/Data Science.
         </Text>
 
         <View className='mt-5 items-center'>
           <Image
-            source={require("../assets/t1.jpg")}
+            source={require("../assets/Matriz_KNN.jpeg")}
             style={{
               resizeMode: "contain",
-              height: 200,
-              width: 200,
+              height: 350,
+              width: 350,
             }}
           />
         </View>
 
-        <View className='mt-5 items-center'>
+        <View className='mt-3 items-center'>
           <Image
-            source={require("../assets/t1.jpg")}
+            source={require("../assets/KaggleKNN.jpeg")}
             style={{
               resizeMode: "contain",
               height: 200,
-              width: 200,
+              width: 350,
             }}
           />
         </View>

@@ -35,7 +35,7 @@ export default function PredictionScreen() {
       Sex: state.gender,
       Fare: parseFloat(state.fare.replace(',', '.')),
       Embarked: state.embarked
-    }).then(response => {alert(response.data === 1 ? `${state.name} survives` : `${state.name} dies`)}).catch(error => console.log(error))
+    }).then(response => {alert(response.data == 1 ? `${state.name} survives` : `${state.name} dies`)}).catch(error => console.log(error))
   }
 
   return (
